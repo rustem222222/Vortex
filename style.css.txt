@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #1b1b1b;
+    color: #fff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #111;
+}
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav a {
+    margin-left: 20px;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #1e90ff;
+}
+.banner {
+    background: url('https://via.placeholder.com/1600x500') center/cover no-repeat;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner h1 {
+    font-size: 48px;
+    background-color: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+.games-section {
+    padding: 50px;
+}
+.games-section h2 {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+.games-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+.game-card {
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.game-card:hover {
+    transform: scale(1.05);
+}
+.game-card img {
+    width: 100%;
+    display: block;
+}
+.game-card .info {
+    padding: 15px;
+}
+.game-card .info h3 {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+.game-card .info p {
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+.game-card .info .price {
+    font-weight: bold;
+    color: #1e90ff;
+}
+footer {
+    background-color: #111;
+    padding: 30px 50px;
+    text-align: center;
+    color: #888;
+}
+@media(max-width: 768px){
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav {
+        margin-top: 10px;
+    }
+}

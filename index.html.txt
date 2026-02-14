@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameStore</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Хедер -->
+    <header>
+        <div class="logo">GameStore</div>
+        <nav>
+            <a href="#">Магазин</a>
+            <a href="#">Библиотека</a>
+            <a href="#">Сообщество</a>
+            <a href="#">Новости</a>
+            <a href="#">Поддержка</a>
+        </nav>
+    </header>
+
+    <!-- Баннер -->
+    <div class="banner">
+        <h1>Добро пожаловать в GameStore!</h1>
+    </div>
+
+    <!-- Секция игр -->
+    <section class="games-section">
+        <h2>Популярные игры</h2>
+        <div class="games-grid">
+            <div class="game-card">
+                <img src="https://via.placeholder.com/250x150" alt="Игра 1">
+                <div class="info">
+                    <h3>Игра 1</h3>
+                    <p>Жанр: RPG</p>
+                    <p class="price">₸3990</p>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://via.placeholder.com/250x150" alt="Игра 2">
+                <div class="info">
+                    <h3>Игра 2</h3>
+                    <p>Жанр: Экшн</p>
+                    <p class="price">₸4990</p>
+                </div>
+            </div>
+            <div class="game-card">
+                <img src="https://via.placeholder.com/250x150" alt="Игра 3">
+                <div class="info">
+                    <h3>Игра 3</h3>
+                    <p>Жанр: Стратегия</p>
+                    <p class="price">₸2990</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        © 2026 GameStore. Все права защищены.
+    </footer>
+</body>
+</html>
